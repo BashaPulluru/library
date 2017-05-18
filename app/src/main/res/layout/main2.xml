@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:id="@+id/admin_btn"
+        android:layout_marginLeft="122dp"
+        android:layout_marginStart="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="112dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emp_btn"
+        android:text="Employee"
+        android:layout_below="@+id/admin_btn"
+        android:layout_alignLeft="@+id/admin_btn"
+        android:layout_alignStart="@+id/admin_btn"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_btn"
+        android:padding="10dp"
+        android:text="Others"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/emp_btn"
+        android:layout_alignLeft="@+id/emp_btn"
+        android:layout_alignStart="@+id/emp_btn" />
+
+</RelativeLayout>
